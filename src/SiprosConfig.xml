@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<PRONOVO_CONFIG version="1.0" >
+    <PEPTIDE_IDENTIFICATION>
+        <FASTA_DATABASE>/data2/zpb/biofilm/biofilm_19</FASTA_DATABASE>
+        <INPUT_MS_FILE_TYPE>FT2</INPUT_MS_FILE_TYPE>
+        <OUTPUT_ID_FILE_TYPE>TXT</OUTPUT_ID_FILE_TYPE>
+		<FRAGMENTATION_METHOD>CID</FRAGMENTATION_METHOD>
+        <MAX_PTM_COUNT>1</MAX_PTM_COUNT>
+		<MAX_POLYMORPHISM_COUNT>1</MAX_POLYMORPHISM_COUNT>
+		<MASS_ACCURACY>
+			<PARENT_MASS_WINDOWS>-1,0</PARENT_MASS_WINDOWS>		
+			<PARENT_ION>0.04</PARENT_ION>
+			<FRAGMENT_IONS>0.02</FRAGMENT_IONS>
+		</MASS_ACCURACY>
+		<PEPTIDE_MASS_RANGE>
+			<MIN>400</MIN>
+			<MAX>6000</MAX>
+		</PEPTIDE_MASS_RANGE>
+		<CLEAVAGE_RULES>
+			<AFTER_RESIDUES>KR</AFTER_RESIDUES>
+			<BEFORE_RESIDUES>ACDEFGHIJKLMNPQRSTVWXY</BEFORE_RESIDUES>
+			<MAX_MISSED_CLEAVAGE>2</MAX_MISSED_CLEAVAGE>
+			<MIN_SPECIFIC_CLEAVAGE>2</MIN_SPECIFIC_CLEAVAGE>
+			<TEST_START_REMOVAL>false</TEST_START_REMOVAL>			
+		</CLEAVAGE_RULES>
+		<PTM>
+			<M>
+				<!-- oxidization -->
+				<SYMBOL>*</SYMBOL>
+				<RESIDUES>QN[]</RESIDUES>
+			</M>
+			<M>
+				<!-- Methylation -->
+				<SYMBOL>~</SYMBOL>
+				<RESIDUES>[KR</RESIDUES>
+			</M>
+		</PTM>
+        <ATOM_ISOTOPIC_COMPOSITION>
+            <C>
+                <MASS_DA>	12.000000,	13.003355	</MASS_DA>
+                <PERCENTAGE>	0.9893,		0.0107		</PERCENTAGE>
+            </C>
+            <H>
+                <MASS_DA>	1.007825,	2.014102	</MASS_DA>
+                <PERCENTAGE>	0.999885,	0.000115	</PERCENTAGE>
+            </H>
+            <O>
+                <MASS_DA>	15.994915,	16.999132,	17.999160	</MASS_DA>
+                <PERCENTAGE>	0.99757,	0.00038,	0.00205		</PERCENTAGE>
+            </O>
+            <N>
+                <MASS_DA>	14.003074,	15.000109	</MASS_DA>
+                <PERCENTAGE>	0.99632,	0.00368		</PERCENTAGE>
+            </N>
+            <P>
+                <MASS_DA>	30.973762	</MASS_DA>
+                <PERCENTAGE>	1.0		</PERCENTAGE>
+            </P>
+            <S>
+                <MASS_DA>	31.972071,	32.971459,	33.967867,	35.967081	</MASS_DA>
+                <PERCENTAGE>	0.9493,		0.0076,		0.0429,		0.0002		</PERCENTAGE>
+            </S>
+    	</ATOM_ISOTOPIC_COMPOSITION>
+        <RESIDUE_ATOMIC_COMPOSITION>
+                <R>	Nterm,	0,	1,	0,	0,	0,	0	</R>
+                <R>	Cterm,	0,	1,	1,	0,	0,	0	</R>
+                <R>	J,	6,	11,	1,	1,	0,	0	</R>
+                <R>	I,	6,	11,	1,	1,	0,	0	</R>
+                <R>	L,	6,	11,	1,	1,	0,	0	</R>
+                <R>	A,	3,	5,	1,	1,	0,	0	</R>
+                <R>	S,	3,	5,	2,	1,	0,	0	</R>
+                <R>	G,	2,	3,	1,	1,	0,	0	</R>
+                <R>	V,	5,	9,	1,	1,	0,	0	</R>
+                <R>	E,	5,	7,	3,	1,	0,	0	</R>
+                <R>	K,	6,	12,	1,	2,	0,	0	</R>
+                <R>	T,	4,	7,	2,	1,	0,	0	</R>
+                <R>	D,	4,	5,	3,	1,	0,	0	</R>
+                <R>	R,	6,	12,	1,	4,	0,	0	</R>
+                <R>	P,	5,	7,	1,	1,	0,	0	</R>
+                <R>	N,	4,	6,	2,	2,	0,	0	</R>
+                <R>	F,	9,	9,	1,	1,	0,	0	</R>
+                <R>	Q,	5,	8,	2,	2,	0,	0	</R>
+                <R>	Y,	9,	9,	2,	1,	0,	0	</R>
+                <R>	M,	5,	9,	1,	1,	0,	1	</R>
+                <R>	H,	6,	7,	1,	3,	0,	0	</R>
+                <R>	C,	3,	5,	1,	1,	0,	1	</R>
+                <R>	W,	11,	10,	1,	2,	0,	0	</R>
+                <R>	*,	0,	0,	1,	0,	0,	0,	</R>
+                <R>	~,	0,	-1,	1,	-1,	0,	0,	</R>
+	</RESIDUE_ATOMIC_COMPOSITION>
+    </PEPTIDE_IDENTIFICATION>
+</PRONOVO_CONFIG>

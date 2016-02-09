@@ -1,0 +1,38 @@
+DTASelect v1.9
+/auto/protein/Sequest/AMD_Temperature_N14highT_N15ControlT_BR3_OrbiVelos_Run1_012210/sqt
+/auto/protein/Sequest/Biofilm_AMD_CoreDB_04232008.fasta
+SEQUEST-PVM v.27 in SQT format.
+
+true	Use criteria
+1.8	Minimum +1 XCorr
+2.5	Minimum +2 XCorr
+3.5	Minimum +3 XCorr
+0.08	Minimum DeltCN
+1	Minimum charge state
+4	Maximum charge state
+0.0	Minimum ion proportion
+1000	Maximum Sp rank
+-1.0	Minimum Sp score
+Include	Modified peptide inclusion
+Any	Tryptic status requirement
+true	Multiple, ambiguous IDs allowed
+Ignore	Peptide validation handling
+XCorr	Purge duplicate peptides by protein
+false	Include only loci with unique peptide
+false	Remove subset proteins
+Ignore	Locus validation handling
+0	Minimum modified peptides per locus
+10	Minimum redundancy for low coverage loci
+2	Minimum peptides per locus
+
+Locus	Sequence Count	Spectrum Count	Sequence Coverage	Length	MolWt	pI	Validation Status	Descriptive Name
+Unique	FileName	XCorr	DeltCN	M+H+	CalcM+H+	TotalIntensity	SpR	SpScore	IonProportion	Redundancy	Sequence
+Replace_Protein_Name	2	2	50.0%	500	60000	10.0	U	# Replace_Protein_Description 
+*	Replace_Scan_Name	5.0	0.5	2000.00	2000.00	5000.0	1	500.0	60.0	1	Replace_Peptide_Sequence
+	Proteins	Peptide IDs	Copies
+Unfiltered	42617	200970	248025
+Redundant	548	2378	5448
+Nonredundant	416	1681	3940
+
+Classification	Nonredundant Proteins	Redundant Proteins
+Unclassified	0	0

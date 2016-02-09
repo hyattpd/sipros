@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<CONFIG version="1.0" >
+    <SIC_EXTRACTION>
+        <MS_FILE_TYPE>mzXML</MS_FILE_TYPE>
+        <ID_FILE_TYPE>DTASelect</ID_FILE_TYPE>
+        <RETENTION_TIME_INTERVAL>
+            <MINUTES_BEFORE_MS2>2</MINUTES_BEFORE_MS2>
+            <MINUTES_AFTER_MS2>2</MINUTES_AFTER_MS2>
+            <MINUTES_BETWEEN_DUPLICATE_MS2>2</MINUTES_BETWEEN_DUPLICATE_MS2>
+        </RETENTION_TIME_INTERVAL>
+        <MASS_TO_CHARGE_INTERVAL>
+            <PLUS_MZ_ERROR>0.5</PLUS_MZ_ERROR>
+            <MINUS_MZ_ERROR>0.5</MINUS_MZ_ERROR>
+            <ISOTOPIC_ENVELOP_CUTOFF>0.1</ISOTOPIC_ENVELOP_CUTOFF>
+        </MASS_TO_CHARGE_INTERVAL>
+        <ATOM_ISOTOPIC_COMPOSITION>
+            <C>
+                <MASS_DA>	12.000000,	13.003355	</MASS_DA>
+                <NATURAL>	0.9893,		0.0107		</NATURAL>
+                <ENRICHED>	0.02,		0.98		</ENRICHED>
+            </C>
+            <H>
+                <MASS_DA>	1.007825,	2.014102	</MASS_DA>
+                <NATURAL>	0.999885,	0.000115	</NATURAL>
+                <ENRICHED>	0.02,		0.98		</ENRICHED>
+            </H>
+            <O>
+                <MASS_DA>	15.994915,	16.999132,	17.999160	</MASS_DA>
+                <NATURAL>	0.99757,	0.00038,	0.00205		</NATURAL>
+                <ENRICHED>	0.02,		0.0,		0.98		</ENRICHED>
+            </O>
+            <N>
+                <MASS_DA>	14.003074,	15.000109	</MASS_DA>
+                <NATURAL>	0.99632,	0.00368		</NATURAL>
+                <ENRICHED>	0.02,		0.98		</ENRICHED>
+            </N>
+            <P>
+                <MASS_DA>	30.973762	</MASS_DA>
+                <NATURAL>	1.0		</NATURAL>
+                <ENRICHED>	1.0		</ENRICHED>
+            </P>
+            <S>
+                <MASS_DA>	31.972071,	32.971459,	33.967867,	35.967081	</MASS_DA>
+                <NATURAL>	0.9493,		0.0076,		0.0429,		0.0002		</NATURAL>
+                <ENRICHED>	0.02,		0.0,		0.98,		0.0		</ENRICHED>
+            </S>
+        </ATOM_ISOTOPIC_COMPOSITION>
+        <RESIDUE_ATOMIC_COMPOSITION>
+            <ISOTOPOLOGUE name="Heavy" >
+                <R>	NTerm,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	CTerm,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	L,	6,	11,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	A,	3,	5,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	S,	3,	5,	2,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	G,	2,	3,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	V,	5,	9,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	E,	5,	7,	3,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	K,	6,	12,	1,	0,	0,	0,	0,	0,	0,	2,	0,	0	</R>
+                <R>	I,	6,	11,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	T,	4,	7,	2,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	D,	4,	5,	3,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	R,	6,	12,	1,	0,	0,	0,	0,	0,	0,	4,	0,	0	</R>
+                <R>	P,	5,	7,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	N,	4,	6,	2,	0,	0,	0,	0,	0,	0,	2,	0,	0	</R>
+                <R>	F,	9,	9,	1,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	Q,	5,	8,	2,	0,	0,	0,	0,	0,	0,	2,	0,	0	</R>
+                <R>	Y,	9,	9,	2,	0,	0,	0,	0,	0,	0,	1,	0,	0	</R>
+                <R>	M,	5,	9,	1,	0,	0,	1,	0,	0,	0,	1,	0,	0	</R>
+                <R>	H,	6,	7,	1,	0,	0,	0,	0,	0,	0,	3,	0,	0	</R>
+                <R>	C,	3,	5,	1,	0,	0,	1,	0,	0,	0,	1,	0,	0	</R>
+                <R>	W,	11,	10,	1,	0,	0,	0,	0,	0,	0,	2,	0,	0	</R>
+            </ISOTOPOLOGUE>
+            <ISOTOPOLOGUE name="Light" >
+                <R>	NTerm,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	CTerm,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	L,	6,	11,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	A,	3,	5,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	S,	3,	5,	2,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	G,	2,	3,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	V,	5,	9,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	E,	5,	7,	3,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	K,	6,	12,	1,	2,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	I,	6,	11,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	T,	4,	7,	2,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	D,	4,	5,	3,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	R,	6,	12,	1,	4,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	P,	5,	7,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	N,	4,	6,	2,	2,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	F,	9,	9,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	Q,	5,	8,	2,	2,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	Y,	9,	9,	2,	1,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	M,	5,	9,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0	</R>
+                <R>	H,	6,	7,	1,	3,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+                <R>	C,	3,	5,	1,	1,	0,	1,	0,	0,	0,	0,	0,	0	</R>
+                <R>	W,	11,	10,	1,	2,	0,	0,	0,	0,	0,	0,	0,	0	</R>
+            </ISOTOPOLOGUE>
+        </RESIDUE_ATOMIC_COMPOSITION>
+    </SIC_EXTRACTION>
+    <PEPTIDE_QUANTIFICATION>
+        <PEAK_DETECTION>
+            <CHROMATOGRAM_SMOOTHING>
+                <ORDER>2</ORDER>
+                <WINDOW_SIZE>7</WINDOW_SIZE>
+            </CHROMATOGRAM_SMOOTHING>
+            <PEAK_SHIFT>
+                <LEFT>0</LEFT>
+                <RIGHT>0</RIGHT>
+            </PEAK_SHIFT>
+        </PEAK_DETECTION>
+        <ABUNDANCE_RATIO>
+            <NUMERATOR_ISOTOPOLOGUE>Light</NUMERATOR_ISOTOPOLOGUE>
+            <DENOMINATOR_ISOTOPOLOGUE>Heavy</DENOMINATOR_ISOTOPOLOGUE>
+        </ABUNDANCE_RATIO>
+        <LOG2_RATIO>
+            <MINIMUM>-7</MINIMUM>
+            <MAXIMUM>7</MAXIMUM>
+        </LOG2_RATIO>
+        <LOG2_SNR_CUTOFF>1</LOG2_SNR_CUTOFF>
+        <REMOVE_AMBIGUOUS_PEPTIDES>False</REMOVE_AMBIGUOUS_PEPTIDES>
+    </PEPTIDE_QUANTIFICATION>
+    <PROTEIN_QUANTIFICATION>
+        <MIN_PEPTIDE_NUMBER>1</MIN_PEPTIDE_NUMBER>
+        <MAX_CI_WIDTH>7</MAX_CI_WIDTH>
+        <MAX_LOG2_SNR>3</MAX_LOG2_SNR>
+        <LOG2_RATIO>
+            <MINIMUM>-7</MINIMUM>
+            <MAXIMUM>7</MAXIMUM>
+        </LOG2_RATIO>
+        <LOG2_RATIO_DISCRETIZATION>0.1</LOG2_RATIO_DISCRETIZATION>
+        <FASTA_FILE>E:\Ares_Data\Subunit_Exchange\20061101-ecoK12-HAMAP-contams-JH.fasta</FASTA_FILE>
+        <STANDARD_DEVIATION>
+            <SLOPE>-0.26</SLOPE>
+            <INTERCEPT>1.3</INTERCEPT>
+        </STANDARD_DEVIATION>
+        <MEAN>
+            <SLOPE>1.2</SLOPE>
+            <INTERCEPT>0</INTERCEPT>
+        </MEAN>
+        <SMOOTHING_PROBABILITY_SPACE>0.15</SMOOTHING_PROBABILITY_SPACE>
+    </PROTEIN_QUANTIFICATION>
+</CONFIG>
